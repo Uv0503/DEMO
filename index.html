@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+        .UN img {
+            border: 2px solid blue;
+            border-radius: 10px;          
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 25%;
+        }
+
+        .UN h2 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .UN {
+            justify-content: center;
+        }
+
+        body {
+            background-color: aliceblue;
+           
+        }
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100vw;
+            gap: 40px;
+        }
+        .desc{
+            border: 4px solid white;
+            border-radius: 10px;
+            text-align: center;
+            
+        }
+        h2{
+            text-decoration: underline 3px;
+        }
+        li p{
+            width: 18vw;
+            height: 25vh;
+            border: 2px solid black;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-left: 100px;
+        }
+        .comm{
+            font-family: "Baloo 2", sans-serif;
+            text-align: center;
+            width: auto;
+            text-wrap-style: wrap;
+            text-shadow: 2px 1px 5px #333;
+            text-decoration: underline 2px;
+        }
+        .comm a{
+            color: black;
+        }
+        .comm a:hover{
+            border: 5px solid white;
+            font-size: large;
+            opacity: 30%;
+        }
+        .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto; 
+    margin-left: auto;
+}
+#bottomnav-responsive {
+    margin-top: 75px;
+    display: flex;
+
+}
+#bottomnav-responsive a {
+	color: black;
+	text-decoration: none;
+}
+#bottomnav-responsive h3 {
+	border-bottom: 2px #019ad0 solid !important;
+	text-transform: uppercase;
+	color: #333;
+	padding-bottom: 6px;
+	margin-top: -70px !important;
+	font-size: 1.1em !important;
+}
+#bottomnav-responsive ul li {
+	list-style: none;
+}
+#bottomnav-responsive ul li a:hover {
+	font-size: large;
+    text-decoration: underline 1px;
+}
+#bottomnav-responsive h3 {
+	border-bottom: 2px #019ad0 solid;
+	text-transform: uppercase;
+	color: #333;
+	padding-bottom: 6px;
+	margin-top: 0px !important;
+}
+#basicfacts, #keydocs, #relatedlinks, #resources {
+	width: 25%;
+    padding-left: inherit;
+	padding-right: inherit;
+	margin: 0px;
+}
+nav{
+   
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    width:100%;
+    top:0;
+    left:0;
+   position: fixed;
+   z-index: 100;
+}
+nav ul{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+}
+nav ul li{
+    position: relative;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 2px;
+    margin: 2px;
+    
+}
+nav ul li a{
+    position: relative;
+    color: black;
+    transition: 0.6s;
+    margin: 0 15px;
+    text-decoration: none;
+}
+header{
+   position: relative;
+}
+
+.mainc{
+    border: 4px solid white;
+    border-radius: 10px;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul type="none">
+                <li class="items"><a href="#1">About</a></li>
+                <li class="items"><a href="#2">Committees</a></li>
+                <li class="items"><a href="#bottomnav-responsive">Additional</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="UN">
+        <h2 >UNITED NATIONS</h2>
+        <img src="UNimg.png" alt="IMG" >
+        <br>
+    </div>
+    <div class="desc">
+        <h2 id="1">Model United Nations</h2>
+        <pre >
+            Model UN simulations engage hundreds of thousands of students each year, helping them to learn more about
+            the principles of the UN and how it functions. Many of today’s leaders in law, government, business and the
+            arts – including at the UN itself – participated in Model UN as students.
+
+            The United Nations supports Model UN simulations by building and maintaining strong links between the UN and
+            Model UN participants. It does this by sharing first-hand knowledge about the work of the UN at Model UN
+            conferences; providing guidance with organizers to create accurate and authentic simulations; and
+            encouraging Model UN clubs to take concrete action to support UN values and the Sustainable Development
+            Goals (SDGs).
+
+            Recognizing the value of Model UN simulations across the globe in engaging young people with the initiatives
+            and goals of the UN and garnering support for international cooperation; the General Assembly adopted
+            Resolution 77/336 on “Model United Nations”.
+        </pre>
+    </div>
+    <br>
+    <br>
+    <div class="mainc">
+        <h2 style="text-align: center;" id="2"> Main committees of MUN </h2>
+        <br>
+        <ul class="main" type="none">
+            <li class="comm" data-tilt><p><a href="1.html"><img src="1stn.jpeg" alt="img"></a></p><br><a href="1.html"> Disarmament and International Security (First Committee)</a></li>
+            <li class="comm" data-tilt><p><a href="2.html"><img src="2ndn.jpeg" alt="img"></a></p><br><a href="2.html"> Economic and Financial Committee (Second Committee)</a></li>
+            <li class="comm" data-tilt><p><a href="3.html"><img src="3rd.jpeg" alt="img"></a></p><br><a href="3.html"> Social, Humanitarian & Cultural Issues (Third Committee)</a></li>
+            <li class="comm" data-tilt><p><a href="4.html"><img src="4th.jpeg" alt="img"></a></p><br><a href="4.html"> Special Political and Decolonization (Fourth Committee)</a></li>
+            <li class="comm" data-tilt><p><a href="5.html"><img src="5th.jpeg" alt="img"></a></p><br><a href="5.html"> Administrative and Budgetary Committee (Fifth Committee)</a></li>
+            <li class="comm" data-tilt><p><a href="6.html"><img src="6th.jpeg" alt="img"></a></p><br><a href="6.html"> Legal (Sixth Committee)</a></li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="bottomnav-responsive" class="container"> <!-- InstanceBeginEditable name="bottomnav" --> 
+        <!-- Bottom Navigation for the General Assembly -->
+      
+      <div id="basicfacts">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="/en/ga/about/background.shtml">Functions and Powers</a></li>
+          <li><a href="https://journal.un.org/">UN Journal</a></li>
+          <li><a href="https://www.un.org/en/ga/news/">News</a></li>
+        </ul>
+      </div>
+      <div id="keydocs">
+        <h3>Key Documents</h3>
+        <ul>
+          <li><a href="/en/about-us/un-charter">Charter of the United Nations</a></li>
+          <li><a href="/en/ga/about/ropga/">Rules of Procedure</a></li>
+          <li><a href="/en/ga/78/resolutions.shtml">Resolutions</a></li>
+        </ul>
+      </div>
+      <div id="relatedlinks">
+        <h3>Related Sites </h3>
+        <ul>
+          <li><a href="/pga/">General Assembly President</a></li>
+          <li><a href="/Depts/DGACM/">General Assembly Affairs</a></li>
+          <li><a href="https://www.un.org/dgacm/en/content/protocol">Protocol</a></li>
+        </ul>
+      </div>
+      <div id="resources">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="/en/ga/documents/symbol.shtml">Documents Search</a></li>
+            <li><a href="/media/accreditation/">Media Arrangements</a></li>
+      <li><a href="/en/ga/78/pdf/delegates_handbook_2023_EN.pdf">Delegates' Handbook</a>&nbsp;</li>
+        </ul>
+        <p>&nbsp;</p>
+      </div>
+       
+        <!-- InstanceEndEditable --> </div>
+         <script src="script.js"></script>
+         
+</body>
+
+</html>
